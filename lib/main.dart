@@ -4,7 +4,7 @@ void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-  static const String _title = 'Flutter Stateful Clicker Counter';
+  static const String _title = 'my first on test IDE';
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
@@ -54,7 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
-        title: Text('Flutter Demo Click Counter'),
+        title: Text('click as many time as you can'),
       ),
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
@@ -89,4 +89,3 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-
